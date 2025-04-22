@@ -42,7 +42,7 @@ export function App() {
   );
 
   useEffect(() => {
-    setIsLoading(employeeUtils.loading); // Bug 4 fix
+    setIsLoading(employeeUtils.loading); // Bug 5 fix
 
     if (employees === null && !employeeUtils.loading) {
       loadAllTransactions();
